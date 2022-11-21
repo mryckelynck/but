@@ -14,4 +14,4 @@ Application pour comptabiliser les tickets de caisse et la somme totale perçue
 
 ## License
 
-L'utilsation du code est soumis à l'autorisation du propriétaire
+L'utilsation du code est soumis à l'autorisation du propriétaire contact@cqueduweb.fr
