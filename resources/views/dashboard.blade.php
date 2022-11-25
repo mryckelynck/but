@@ -4,7 +4,6 @@
             {{ __('Dashboard') }}
         </h2>
     </x-slot>
-
     @extends('layouts.main')
     @section('home')
 
@@ -17,7 +16,6 @@
                       <th scope="col">Magasin</th>
                       <th scope="col">Description</th>
                       <th scope="col">Montant</th>
-
                     </tr>
                   </thead>
                   <tbody>
@@ -42,7 +40,5 @@
                   </tbody>
                 </table>
             </div>
-
     @endsection
-
 </x-app-layout>
