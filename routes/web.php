@@ -17,6 +17,11 @@ use App\Http\Controllers\TicketController;
 |
 */
 
+    Route::get('/', function () {
+        return view('welcome');
+    });
+
+
    Route::get('/tickets', [TicketController::class, 'index'])->name('ticket.index');
    Route::get('/tickets/create', [TicketController::class, 'create'])->name('ticket.create');
    Route::get('/tickets/edit/{id}', [TicketController::class, 'edit'])->name('ticket.edit');
